@@ -17,14 +17,16 @@ body {
 
 img {
     position: relative;
-    transform: rotate(90deg);
     height: 200px;
+    width: 300px;
+    margin-left: 100px;
     border: 2px solid black;
+    background-color: transparent;
 }
 
 img:hover {
     position: relative;
-    animation: arrow 1s steps(5) infinite;
+    animation: arrow 0.8s steps(20) infinite;
 }
 
 
@@ -85,7 +87,7 @@ li {
 .dynamic li span::after {
     content: "";
     position: absolute;
-    height: 105%;
+    height: 107%;
     width: 100%;
     border-left: 2px solid rgb(129, 3, 129);
     left: 0;
