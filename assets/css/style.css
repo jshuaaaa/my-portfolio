@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(100, 2, 100);
+    color: rgb(129, 3, 129);
 }
 
 body {
@@ -18,6 +18,8 @@ body {
 img {
     position: relative;
     transform: rotate(90deg);
+    height: 200px;
+    border: 2px solid black;
 }
 
 img:hover {
@@ -28,7 +30,7 @@ img:hover {
 
 @keyframes arrow {
     100%{
-        left: 7%;
+        left: 10%;
     }
 }
 
@@ -85,7 +87,7 @@ li {
     position: absolute;
     height: 105%;
     width: 100%;
-    border-left: 2px solid rgb(100, 2, 100);
+    border-left: 2px solid rgb(129, 3, 129);
     left: 0;
     background: black;
     animation: typing 2.5s steps(20) infinite;
