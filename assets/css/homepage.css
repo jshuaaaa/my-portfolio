@@ -6,8 +6,7 @@
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
+    background: var(--black);
 }
 header {
     position: fixed;
@@ -20,7 +19,9 @@ header {
     height: 70px;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 header a {
     margin-left: 20px;
@@ -31,14 +32,17 @@ header a {
 }
 
 .greece {
+    margin-bottom: 5px;
     display: flex;
-justify-content: center;
-align-items: center;
-height: 600px;
-width: 100%;
-border-bottom: 5px var(--purple) solid;
-background-image: url("./images/greece.jpg");
-background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    border-bottom: 5px var(--purple) solid;
+    background-image: url("./images/greece.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
 
 
@@ -65,4 +69,55 @@ main div {
     flex-direction: column;
     align-items: center;
     
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#projects div {
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 80px;
+    line-height: 1.3;
+    height: 200px;
+    padding: 20px;
+    margin-top: 100px;
+    border: 2px var(--purple) solid;
+    border-radius: 20px;
+    background-color: var(--black);
+    justify-content: center;
+    align-items: center;
+}
+
+.comingsoon {
+    background-image: url(./images/comingsoon.jpg);
+    background-size: cover;
+
+}
+
+#horiseon {
+    background-image: url(./images/horiseon.jpg);
+    background-size: cover;
+}
+
+#projects div p {
+    position: relative;
+    margin-top: 72px;
+    padding: 20px;
+    background-color: var(--black);
+    border-radius: 20px;
+    display: none;
+
+}
+
+
+#projects div:hover {
+    box-shadow: 1px 1px 4px 4px var(--lightpurple);
+}
+
+#projects div:hover p {
+    display: flex;
 }
