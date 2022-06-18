@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(129, 3, 129);
+    color: var(--purple);
 }
 
 body {
@@ -89,7 +89,7 @@ li {
     position: absolute;
     height: 107%;
     width: 100%;
-    border-left: 2px solid rgb(129, 3, 129);
+    border-left: 2px solid var(--purple);
     left: 0;
     background: black;
     animation: typing 2.5s steps(20) infinite;
