@@ -15,7 +15,6 @@ body {
     background: black
 }
 
-
 img {
     position: relative;
     height: 200px;
@@ -40,7 +39,9 @@ img:hover {
 
 
 .wrapper{
-    display: inline-flex
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -55,7 +56,6 @@ li {
 .wrapper .static {
     font-size: 60px;
     font-weight: 400px;
-    margin-top: 5px;
 }
 
 .wrapper .dynamic {
