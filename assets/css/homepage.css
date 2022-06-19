@@ -26,9 +26,9 @@ a {
  h2 {
         display: flex;
         justify-content: center;
-        align-items: center;
         margin-top: 50px;
         font-size: 48px;
+        margin-bottom: -30px;
     }
     
 
@@ -157,7 +157,8 @@ form {
     padding: 35px;
     border: 2px var(--purple) solid;
     border-radius: 20px;
-    margin-top: 50px;
+
+    margin-bottom: 20px;
     box-shadow: 1px 1px 4px 4px var(--purple);
     display: flex;
     justify-content: center;
@@ -180,7 +181,7 @@ form {
 .container-form {
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 button h4 {
