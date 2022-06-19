@@ -42,6 +42,7 @@ img:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -103,5 +104,21 @@ li {
     100%{
         left: 100%;
         margin: 0 -35px 0 35px;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .wrapper {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        font-size: 26px;
     }
 }
