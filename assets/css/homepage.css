@@ -196,3 +196,15 @@ button {
     box-shadow: 1px 1px 1px 1px var(--lightpurple);
     margin-left: 40px;
 }
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    border: solid 4px var(--purple);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
