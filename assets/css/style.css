@@ -119,6 +119,28 @@ li {
 
     .mobile {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         font-size: 26px;
+    }
+
+    img {
+        position: relative;
+        height: 100px;
+        width: 100px;
+
+    }
+    
+    img:hover {
+        position: relative;
+        animation: arrow 0.8s steps(20) infinite;
+    }
+    
+    
+    @keyframes arrow {
+        100%{
+            left: 10%;
+        }
     }
 }
