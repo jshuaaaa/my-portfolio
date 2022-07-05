@@ -125,6 +125,20 @@ main div {
     background-image: url(./images/horiseon.jpg);
     background-size: cover;
 }
+.kazook {
+    background-image: url(./images/kazook.png);
+    background-size: cover;
+}
+
+.weather {
+    background-image: url(./images/weather.png);
+    background-size: cover;
+}
+
+.planner {
+    background-image: url(./images/planner.png);
+    background-size: cover;
+}
 
 #projects div p {
     position: relative;
