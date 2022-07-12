@@ -31,7 +31,7 @@
     <a href="https://jshuaaaa.github.io/weather-for-major-cities/"><div class="weather"><p>This is a dynamic weather app that I built from scratch, using JS and the OpenWeather API</p></div></a>
     <a href="https://jshuaaaa.github.io/dynamic-planner/"><div class="planner"><p>This is a dynamic planner, that was made with JS and Moment.js</p></div></a>
     <a href="https://jshuaaaa.github.io/Bootcamp-Challenge-Week-1/"><div id="horiseon"><p>Horiseon was a project that I some code refactoring for</p></div></a>
-    <a href=""><div class="comingsoon"><p>Coming soon...</p></div></a>
+    <a href="https://jshuaaaa.github.io/vines-and-victuals/"><div id="vandv"><p>Vines and Victuals is a food and cocktail app that I coded the majority of the JS and api data for!</p></div></a>
     <a href=""><div class="comingsoon"><p>Coming soon...</p></div></a>
 </section>
 
@@ -39,11 +39,11 @@
 <h2>Contact Me!</h2>
 
 <section class="container-form">
-<form id="contact-me" class="container">
+<form onsubmit="sendEmail(e); reset(); return false" id="contact-me" class="container">
 <ul>
     <li><input id="email" type="email" placeholder="Enter your email here"></li>  
-    <li><input type="textarea" placeholder="Enter your message here" class="message"></li>
-    <li><button><h4>Send</h4></button></li>
+    <li><input id="textarea"t type="textarea" placeholder="Enter your message here" class="message"></li>
+    <li><button type="submit" id="button"><h4>Send</h4></button></li>
 </ul>
 </form>
 </section>
@@ -52,6 +52,4 @@
     <p>© 2022 Joshua Finkelstein</p><a href="https://github.com/jshuaaaa"><img src="assets/css/images/github.jpg" height="25px" width="25px"></a>
 </footer>
 
-
-</body>
 </html>

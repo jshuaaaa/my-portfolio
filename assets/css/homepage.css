@@ -125,6 +125,10 @@ main div {
     background-image: url(./images/horiseon.jpg);
     background-size: cover;
 }
+#vandv {
+    background-image: url(./images/vandv.png);
+    background-size: cover;
+}
 .kazook {
     background-image: url(./images/kazook.png);
     background-size: cover;
