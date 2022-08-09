@@ -139,6 +139,11 @@ main div {
     background-size: cover;
 }
 
+.Cluster {
+    background-image: url(./images/Screenshot.png);
+    background-size: cover;
+}
+
 .planner {
     background-image: url(./images/planner.png);
     background-size: cover;
