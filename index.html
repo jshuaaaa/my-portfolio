@@ -1,35 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My portfolio</title>
-</head>
-<body>
-
-    <div data-animation class="wrapper">
-        <ul class="static">
-            <li>I am</li>
-
-        </ul>
-        
-        <ul class="dynamic">
-            <li><span>a Full-stack Developer</span></li>
-            <li><span>a Tech enthusiast</span></li>
-            <li><span>an Over-achiever</span></li>
-
-        </ul>
-
-    </div>
-
-    <div class="mobile">
-        <h1>Go to my webpage</h1>
-    </div>
-
-    <a href="homepage.html"><img src="./assets/css/images/arrow.jpg"/></a>
-    
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Joshua Finkelstein</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./assets/css/homepage.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Joshua Finkelstein</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">My Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Joshua Finkelstein</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">A passionate Full-Stack Developer!</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About me!</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">I am a Full-stack developer from Athens,Greece. I graduated from the UCF Coding Bootcamp, and from there I have acquired new skills in JavaScript, CSS, HTML, MYSQL, React, Express, MongoDB, and NodeJS. I got into coding due to my passion and love for technology and Web3. I also have some self-taught knowledge in Solidity. I spare no effort in my code and am fascinated by everything I can create. Other than enjoying building high-level and reactive applications, I love the learning process that goes along with it. I would love the opportunity to leverage my skills and learn as much as I can!</p>
+                        <a class="btn btn-light btn-xl" href="#services">Want help?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">What can I do?</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Secure Smart Contract Development</h3>
+                            <p class="text-muted mb-0">I can write secure smart contracts using solidity for any blockchain using the EVM!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Front-end Development</h3>
+                            <p class="text-muted mb-0">I can do Front-end development, I am familiar with VanillaJS, React, Handlebars, CSS, HTML and jQuery!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Back-end Development</h3>
+                            <p class="text-muted mb-0">I can do Back-end development too! I am familiar writing RESTful APIs, creating routes with Express, NodeJS, Architecting both NoSQL and MySQL Databases, utilizing ORMs and ODMs for Database modeling!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Full-stack Development</h3>
+                            <p class="text-muted mb-0">Need someone to wear many different hats? Then im your guy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="https://clusterr-1.herokuapp.com/" title="Cluster">
+                            <img class="img-fluid" src="./assets/css/images/Screenshot.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Cluster</div>
+                                <div class="project-description">
+                                    <p>Cluster is a social media app, that allows users to create posts to the timeline, and make private groups for only them and their friends! Users can also make paid groups to get paid if they want to turn their group into a buisness!</p>
+                                    <p>I contributed to the project as a Full-stack developer, designing RESTful APIs, controller logic, database architecture, The solidity smart contracts, The implementation of handlebars.js and The Frontend JS</p>
+                                    <p>Some clear improvements I can make is as it uses quite complex data manipulation is to better optimize the code for better load times!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="https://jshuaaaa.github.io/vines-and-victuals/" title="Vines & Victuals">
+                            <img class="img-fluid" src="./assets/css/images/vandv.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Vines & Victuals</div>
+                                <div classs="project-description">
+                                    <p>V&V is an interactive site people can use to search for a food or drink recipe, and then once the user selects a food item it will show up with recommended drinks! Users can also choose to save recipes for later!</p>
+                                    <p>On V&V I contributed to targeting of the APIs, and making sure the correct data displays on page. I wrote the majority of the JS Functionallity for V&V as well as utilizing features like local storage for what users want to save for later!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="https://lend-389234.herokuapp.com/" title="LEND">
+                            <img class="img-fluid" src="./assets/css/images/lend.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Vines & Victuals</div>
+                                <div classs="project-description">
+                                    <p>LEND is a simple bank app running on the Rinkeby Testnet secured by Ethereum, that allows users to deposit their wETH and then borrow against their ETH as collateral</p>
+                                    <p>LEND was made fully by me, I wrote the smart contracts and the front-end of the project! Please note in order to use the app you must have a metamask wallet on your device as it runs off the ethereum blockchain you must have a wallet for the app to connect to!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="https://jshuaaaa.github.io/kazook-fighting-game/" title="LEND">
+                            <img class="img-fluid" src="./assets/css/images/fighting-game.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Vines & Victuals</div>
+                                <div classs="project-description">
+                                    <p>This is a simple fighting game I made, utilizing JS HTML and CSS using OOP fundamentals</p>
+                                    <p>This is a 2 player fighting game, controlled by 'wasd' and the arrow keys. This app uses basic fighting game concepts like a timer, hit detection and some basic movement.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- form.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://form.123formbuilder.com/embed/6229424.js" data-role="form" data-default-width="650px"></script><!-- form.123formbuilder.com script ends here -->
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+1 (407) 881-1685</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Joshua Finkelstein</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
